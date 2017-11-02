@@ -6,7 +6,7 @@
 #  * Configuration bucket
 # -----------------------------------------
 module "prometheus-ecs" {
-  source = "../../modules/prometheus-ecs/cluster"
+  source = "./prometheus-ecs/cluster"
 
   name             = "ecs-prometheus"
   cluster_min_size = 2
